@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 929c47c60b314cb2b68dd95710470cec, type: 3}
+  m_Name: Intro Reward Item
+  m_EditorClassIdentifier: Assembly-CSharp::Game.Item.RewardData
+  rewardId: intro0
+  rewardItems:
+  - itemData: {fileID: 11400000, guid: cca96b96ae50de043848c9c068141f03, type: 2}
+    quantity: 3
+  - itemData: {fileID: 11400000, guid: 49f85e1b0ad72ed48b9775476cb20436, type: 2}
+    quantity: 3
+  - itemData: {fileID: 11400000, guid: 814c5c1c60d34c34bbb05d991ebcd03a, type: 2}
+    quantity: 1
+  - itemData: {fileID: 11400000, guid: e81308de04b4e6d44b0bb83212bdef29, type: 2}
+    quantity: 1
+  - itemData: {fileID: 11400000, guid: 0ad52f036dee85342af04d1b2f53e7e4, type: 2}
+    quantity: 1
+  - itemData: {fileID: 11400000, guid: b2550d0d0e82c9d40a85ba72bc892ae8, type: 2}
+    quantity: 1

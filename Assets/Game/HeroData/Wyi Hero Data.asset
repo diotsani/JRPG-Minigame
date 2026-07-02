@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2f1e95c35f34d0cac022dd2b31848e1, type: 3}
+  m_Name: Wyi Hero Data
+  m_EditorClassIdentifier: Assembly-CSharp::Game.Item.HeroData
+  id: hero1
+  heroName: Wyi
+  heroDescription: A village boy who wants to be a great hero
+  heroIcon: {fileID: 21300000, guid: c8a9f2294d312d0458a5ed11f75b121f, type: 3}
+  heroPortrait: {fileID: 21300000, guid: 2840f075a3492ed4c86ffc33ea651b35, type: 3}
+  heroPrefab: {fileID: 4295344975805181541, guid: 3e781651a65323142bcaf7f8a642ae7e, type: 3}
+  heroLevel: 1
+  heroExperience: 0
+  heroAttack: 25
+  heroHealth: 50
+  heroDefense: 5
+  heroMana: 100
+  attackSkills:
+  - {fileID: 11400000, guid: e3104112c7028cb47b92e1a492907abf, type: 2}
+  abilitySkills: []
+  defendSkills: []

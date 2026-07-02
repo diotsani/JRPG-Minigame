@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7de8c5269c043dfa9e265efbf1954de, type: 3}
+  m_Name: Enemy Eyne
+  m_EditorClassIdentifier: Assembly-CSharp::Game.Enemy.EnemyData
+  id: enemy2
+  enemyName: Eyne
+  enemyDescription: 
+  enemyIcon: {fileID: 0}
+  enemyPortrait: {fileID: 0}
+  enemyPrefab: {fileID: 1906919092374659191, guid: 36436b8703b04f344a4d06e714486d83, type: 3}
+  enemyLevel: 1
+  enemyAttack: 15
+  enemyHealth: 100
+  enemyDefense: 5
+  enemyMana: 0
+  attackSkills:
+  - {fileID: 11400000, guid: 60666494336c78b4d9c5c68a238aa503, type: 2}
+  abilitySkills: []

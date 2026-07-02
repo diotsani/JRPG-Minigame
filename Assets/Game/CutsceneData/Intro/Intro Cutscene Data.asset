@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb050d6fe175474898ac10394cb36a90, type: 3}
+  m_Name: Intro Cutscene Data
+  m_EditorClassIdentifier: Assembly-CSharp::Cutscene.CutsceneData
+  cutsceneId: intro
+  commands:
+  - {fileID: 11400000, guid: 04390799924df6c489fc69d41c1bf8e8, type: 2}
+  - {fileID: 11400000, guid: c058120da3cc83342bbb78f1fe01dda1, type: 2}
+  - {fileID: 11400000, guid: 65efd776b31a7494783d2d9c8876698a, type: 2}
+  - {fileID: 11400000, guid: 5f95975d0893207459c2e3b08fb90265, type: 2}
+  - {fileID: 11400000, guid: 7696d4f5fd719614581199441122581f, type: 2}
+  - {fileID: 11400000, guid: 5d88653b367af3b459ae571297a6a257, type: 2}
+  - {fileID: 11400000, guid: 147d64ed47764414396e207b0193a1be, type: 2}
+  - {fileID: 11400000, guid: 096e7b3c7b6cfae42a7c47efe980c369, type: 2}
+  - {fileID: 11400000, guid: 79b61fb09e239824baba6e88dd45ea8a, type: 2}
+  - {fileID: 11400000, guid: c50eaaec0e418ed499ac8b470d40c1ca, type: 2}
+  - {fileID: 11400000, guid: 7a17efbcd3b01644697e7c363a14561e, type: 2}

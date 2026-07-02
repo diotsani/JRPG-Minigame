@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1245280648588484723
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1204334922891507625}
+    m_Modifications:
+    - target: {fileID: 6513790998007737158, guid: b3434ab15591dcb4691592ef3de17d31, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513790998007737158, guid: b3434ab15591dcb4691592ef3de17d31, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513790998007737158, guid: b3434ab15591dcb4691592ef3de17d31, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513790998007737158, guid: b3434ab15591dcb4691592ef3de17d31, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513790998007737158, guid: b3434ab15591dcb4691592ef3de17d31, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513790998007737158, guid: b3434ab15591dcb4691592ef3de17d31, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513790998007737158, guid: b3434ab15591dcb4691592ef3de17d31, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513790998007737158, guid: b3434ab15591dcb4691592ef3de17d31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513790998007737158, guid: b3434ab15591dcb4691592ef3de17d31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513790998007737158, guid: b3434ab15591dcb4691592ef3de17d31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8080298886909334528, guid: b3434ab15591dcb4691592ef3de17d31, type: 3}
+      propertyPath: m_Name
+      value: Enemy Eyne
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3434ab15591dcb4691592ef3de17d31, type: 3}
+--- !u!95 &99024349223204205 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1159657353480033566, guid: b3434ab15591dcb4691592ef3de17d31, type: 3}
+  m_PrefabInstance: {fileID: 1245280648588484723}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5417129139287853877 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6513790998007737158, guid: b3434ab15591dcb4691592ef3de17d31, type: 3}
+  m_PrefabInstance: {fileID: 1245280648588484723}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1753874110935942346
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 153614940881659069, guid: 125a0436c3efa574f91c9e9ccb7ef3e3, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 99024349223204205}
+    - target: {fileID: 639980696107807587, guid: 125a0436c3efa574f91c9e9ccb7ef3e3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 639980696107807587, guid: 125a0436c3efa574f91c9e9ccb7ef3e3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 639980696107807587, guid: 125a0436c3efa574f91c9e9ccb7ef3e3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 639980696107807587, guid: 125a0436c3efa574f91c9e9ccb7ef3e3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 639980696107807587, guid: 125a0436c3efa574f91c9e9ccb7ef3e3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 639980696107807587, guid: 125a0436c3efa574f91c9e9ccb7ef3e3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 639980696107807587, guid: 125a0436c3efa574f91c9e9ccb7ef3e3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 639980696107807587, guid: 125a0436c3efa574f91c9e9ccb7ef3e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 639980696107807587, guid: 125a0436c3efa574f91c9e9ccb7ef3e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 639980696107807587, guid: 125a0436c3efa574f91c9e9ccb7ef3e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1533359498063222936, guid: 125a0436c3efa574f91c9e9ccb7ef3e3, type: 3}
+      propertyPath: m_Name
+      value: Battle Enemy Eyne
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 639980696107807587, guid: 125a0436c3efa574f91c9e9ccb7ef3e3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5417129139287853877}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 125a0436c3efa574f91c9e9ccb7ef3e3, type: 3}
+--- !u!4 &1204334922891507625 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 639980696107807587, guid: 125a0436c3efa574f91c9e9ccb7ef3e3, type: 3}
+  m_PrefabInstance: {fileID: 1753874110935942346}
+  m_PrefabAsset: {fileID: 0}

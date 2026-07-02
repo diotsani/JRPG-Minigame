@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2f1e95c35f34d0cac022dd2b31848e1, type: 3}
+  m_Name: Main Hero Data
+  m_EditorClassIdentifier: Assembly-CSharp::Game.Item.HeroData
+  id: hero0
+  heroName: Hero
+  heroDescription: A hero who comes to help anyone and anywhere
+  heroIcon: {fileID: 21300000, guid: 27d2fd16700b54a4a9e25a7c5b5762b1, type: 3}
+  heroPortrait: {fileID: 21300000, guid: f26b8cc41f8b7d149b5fa1392c7be7fc, type: 3}
+  heroPrefab: {fileID: 2977696393361543011, guid: 5f3d494b63bc7f747bf54c11c5d958ef, type: 3}
+  heroLevel: 1
+  heroExperience: 0
+  heroAttack: 50
+  heroHealth: 100
+  heroDefense: 10
+  heroMana: 100
+  attackSkills:
+  - {fileID: 11400000, guid: e3104112c7028cb47b92e1a492907abf, type: 2}
+  abilitySkills: []
+  defendSkills: []
