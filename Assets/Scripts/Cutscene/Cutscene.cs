@@ -17,9 +17,10 @@ namespace Cutscene
         {
             _cutscenes.Add(id);
         }
+        
         public bool Check(string id)
         {
-            return CutSceneCount != 0 && _cutscenes.Contains(id);
+            return _cutscenes.Contains(id);
         }
         
         public List<string> GetCutscenes()

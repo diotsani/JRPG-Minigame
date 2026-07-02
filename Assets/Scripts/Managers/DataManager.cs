@@ -43,13 +43,13 @@ namespace Managers
 
         private void Start()
         {
+            SaveSystem.Load();
             // add main hero to hero list if not already added
             if (_hero.Count == 0)
             {
                 AddHero(mainHero);
                 AddHero(hero1);
             }
-            SaveSystem.Load();
         }
 
         [ContextMenu("Save Data")]

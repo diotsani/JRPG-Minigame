@@ -231,7 +231,7 @@ namespace Battles
             var h = _heroUnits[index];
             if (h.IsDead())
             {
-                h = GetActiveHero()[index] as BattleHero;
+                h = GetActiveHero()[0] as BattleHero;
             }
 
             return h;
@@ -242,7 +242,7 @@ namespace Battles
             var e = _enemyUnits[index];
             if (e.IsDead())
             {
-                e = GetActiveEnemy()[index] as BattleEnemy;
+                e = GetActiveEnemy()[0] as BattleEnemy;
             }
 
             return e;
